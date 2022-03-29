@@ -2,7 +2,9 @@ import Principal from "./components/principal/Principal";
 
 function App() {
   return (
-    <Principal />
+    <main className='position-absolute top-50 start-50 translate-middle'>
+      <Principal />
+    </main>
   );
 }
 
